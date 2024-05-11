@@ -1,0 +1,88 @@
+*,
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  background-color: #EBF9F8;
+}
+
+#topnav h1 {
+  margin-left: 60px;
+}
+
+#topnav .homepage {
+  float: right;
+  font-weight: bold;
+  background-color: #ebf9f8;
+  border: 5px solid #33CCCC;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-banner {
+  margin-left: 360px;
+  border: 2px solid #ebf9f8;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1 span {
+  color: #33CCCC;
+}
+
+.home {
+  border: 5px solid #33CCCC;
+  margin-right: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.topnav-right a {
+  text-decoration: none;
+}
+
+.square_circle {
+  border-radius: 50%;
+}
+
+.name,
+.title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.title {
+  background-color: #ebf9f8;
+  border: 5px solid #33CCCC;
+}
+
+/* projects */
+.col #card1,
+#card2,
+#card3,
+#card4 {
+  border: 5px solid #33CCCC;
+  width: 450px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+h5 {
+  background-color: #ebf9f8;
+}
+
+h5,
+p {
+  font-weight: bold;
+}
