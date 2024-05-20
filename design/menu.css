@@ -1,0 +1,122 @@
+/* menu */
+#menu {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  color: black;
+}
+
+.toggle {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.toggle input {
+  color: #16bbce;
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+.toggle span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background-color: #33CCCC;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 3px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+.toggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+.toggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* Transform all the slices of hamburger into a crossmark. */
+.toggle input:checked~span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #33CCCC;
+}
+
+/* But let's hide the middle one. */
+.toggle input:checked~span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.toggle input:checked~span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/* Make this absolute positioned at the top left of the screen */
+.aces {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -100px;
+
+  background: #ebf9f8;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+.aces a {
+  text-decoration: none;
+  background-color: #EBF9F8;
+  font-weight: bold;
+}
+
+.aces li a {
+  color: #33CCCC;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.aces li a span {
+  display: inline;
+  font-weight: bold;
+  color: black;
+}
+
+/* And let's slide it in from the left */
+.toggle input:checked~ul {
+  transform: none;
+  opacity: 1;
+}

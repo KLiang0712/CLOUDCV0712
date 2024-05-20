@@ -13,6 +13,10 @@ $(document).ready(function() {
       name: "Leslie Jones"
     },
     {
+      quote: "Go confidently in the direction of your dreams! Live the life you have imagined. As you simplify your life, the laws of the universe will be simpler.", 
+      name: "Henry David Thoreau"
+    },
+    {
       quote: "Two things are infinite: the universe and human stupidity; and I am not sure about the universe.",
       name: "Albert Einstein"
     },
@@ -79,6 +83,10 @@ $(document).ready(function() {
     {
       quote: "You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.",
       name: "Abraham Lincoln"
+    },
+    {
+      quote: "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", 
+      name: "Harriet Tubman"
     },
     {
       quote: "Sometimes, making the wrong choice is better than making no choice. You have the courage to go forward, that is rare. A person who stands at the fork, unable to pick, will never get anywhere.",

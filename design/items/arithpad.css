@@ -1,0 +1,166 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+ 
+#calculator {
+  width: 600px;
+  margin: 4% auto;
+  font-family: Arial;
+  letter-spacing: 5px;
+  font-size: 30px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  border: 5px solid black;
+}
+
+#design {
+  padding: 20px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  background-color: #33CCCC;
+}
+
+.input {
+  background-color: #ffffff;
+  border: 5px solid black;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 30px;
+  font-weight: bold;
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.input:hover {
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {}
+
+.operators {}
+
+.operators button {
+  display: inline-block;
+  border: 5px solid black;
+  color: black;
+  font-weight: bold;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: white;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators button:hover {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  color: black;
+  border-color: #33CCCC;
+  background-color: #EBF9F8;
+}
+
+.operators button:active {
+  font-weight: bold;
+}
+
+.numbers {
+  display: inline-block;
+}
+
+.numbers div {
+  display: inline-block;
+  border: 5px solid black;
+  color: black;
+  font-weight: bold;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover {
+  color: black;
+  border: 5px solid skyblue;
+  background-color: #EBF9F8;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.numbers div:active {
+  font-weight: bold;
+}
+
+div.equal {
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 1px;
+  width: 25%;
+  height: 150px;
+  text-align: center;
+  padding: 50px 10px;
+  margin: 10px 5px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  background-color: #ffffff;
+  transition: all .2s ease-in-out;
+}
+
+div.equal:hover {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: black;
+  border: 5px solid skyblue;
+  background-color: #EBF9F8;
+}
+
+div.equal:active {
+  font-weight: bold;
+}
+
+#notes {
+  border: 5px solid #33CCCC;
+  font-weight: bold;
+  width: 1000px;
+  margin-left: 200px;
+}
+
+#notes h1 {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #EBF9F8;
+}
+
+#notes h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#notes p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+

@@ -8,7 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Styling -->
-  <link rel="stylesheet" href="/design/techis.css">
+  <!-- Styling -->
+  <link rel="stylesheet" type="text/css" href="/design/items/arithpad.css">
+  <link rel="stylesheet" type="text/css" href="/design/items/settings.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
@@ -26,7 +30,6 @@
 
   <!-- Head Content -->
   <title>Calculator</title>
-  <link href="/design/techis.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/images/favicon.svg" alt="techis">
 </head>
 
@@ -64,10 +67,11 @@
       <div class="buttons">
         <!-- operators -->
         <div class="operators">
-          <div>+</div>
-          <div>-</div>
-          <div>&times;</div>
-          <div>&divide;</div>
+          <button>+</button>
+          <button>-</button>
+          <button>&times;</button>
+          <button>&divide;</button>
+          <button>%</button>
         </div>
 
         <!-- numbers -->
@@ -98,11 +102,22 @@
   <section id="notes">
     <ul>
       <h1 style="text-align: center;">Notes</h1>
-      <p>This project is subject to occasional updates on a needed basis.</p>
-
+      <p>This project is subject to occasional updates.</p>
       <br>
+      <h2>Percent (%) Button</h2>
+      <p>Date: 5/20/2024</p>
+      <p>
+        New operator added for Remainder division (%) which calculates the remainder of a division in integer form.
+      </p>
 
-      <h2>The Equals ("=") Button</h2>
+      <h2>Format for Operators</h2>
+      <p>Date: 5/20/2024</p>
+      <p>Operators: Addition, Subtraction, Multiplication, Division, are in "<"button">" form requiring parseFloat
+          function in JavaScript.</p>
+
+
+      <h2>"Enter =" button</h2>
+      <p>Date: 5/10/2024</p>
       <p>
         Evaluates the current expression after pressing it once.<br>
         The expression can be chained with the current output to create a new expression.<br>
@@ -111,8 +126,7 @@
 
       <br>
       <h2>Code Pen IO Sources</h2>
-      <p>Lalwani, V. JavaScript Calculator<br>Retrieved from
-        https://codepen.io/lalwanivikas/pen/eZxjqo</p>
+      <p>Lalwani, V. (2016) JavaScript Calculator Retrieved from https://codepen.io/lalwanivikas/pen/eZxjqo</p>
 
     </ul>
   </section>
