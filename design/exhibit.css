@@ -35,7 +35,7 @@ h1 {
 }
 
 h1 span {
-  color: #33CCCC;
+  color: #16BBCE;
 }
 
 .home {
@@ -67,15 +67,18 @@ h1 span {
   border: 5px solid #33CCCC;
 }
 
+.card-img-top {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+}
+
 /* projects */
-.col #card1,
-#card2,
-#card3,
-#card4 {
+.col .card {
   border: 5px solid #33CCCC;
   width: 450px;
   font-weight: bold;
-  margin-left: 150px;
+  margin-left: 90px;
 }
 
 h5 {
@@ -84,5 +87,19 @@ h5 {
 
 h5,
 p {
+  font-weight: bold;
+}
+
+.card-body a {
+  background-color: #ebf9f8;
+  border: 3px solid #33CCCC;
+  color: black;
+  font-weight: bold;
+}
+
+.card-body a:hover {
+  background-color: white;
+  border: 3px solid #33CCCC;
+  color: black;
   font-weight: bold;
 }

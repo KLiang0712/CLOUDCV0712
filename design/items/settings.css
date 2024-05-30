@@ -6,25 +6,13 @@
   margin-left: 60px;
 }
 
-h1 {
+h1, .portfolio {
   font-size: 30px;
 }
 
-h1 span {
+h1, .portfolio span {
   font-weight: bold;
-  color: #33CCCC;
-}
-
-.nav-banner {
-  text-align: center;
-  margin-left: 360px;
-  border: 2px solid #ebf9f8;
-}
-
-.nav-banner {
-  text-align: center;
-  margin-left: 360px;
-  border: 2px solid #ebf9f8;
+  color: #16bbce;
 }
 
 /* menu */
@@ -39,7 +27,6 @@ h1 span {
 
 #menu a {
   position: relative;
-  background: ebf9f8;
   color: black;
   text-decoration: none;
   font-size: 1.5em;
@@ -83,7 +70,7 @@ h1 span {
   width: 10px;
   height: 10px;
   border: 2px solid var(--clr);
-  background: turquoise;
+  background: #33cccc;
   transform: translateX(-50%);
   transition: 0.5s;
 }
@@ -103,7 +90,7 @@ h1 span {
   width: 10px;
   height: 10px;
   border: 2px solid var(--clr);
-  background: turquoise;
+  background: #33cccc;
   transform: translateX(-50%);
   transition: 0.5s;
 }

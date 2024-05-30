@@ -40,10 +40,18 @@ $(document).ready(function() {
       quote: "All men who have turned out worth anything have had the chief hand in their own education.",
       name: "Walter Scott"
     },
+    
+    /* /Section of High School Yearbook Quotes  */
     {
       quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
       name: "Ralph Waldo Emerson"
     },
+    {
+      quote: "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", 
+      name: "Harriet Tubman"
+    },
+    /* /Section */
+    
     {
       quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
       name: "Albert Einstein"
@@ -77,16 +85,24 @@ $(document).ready(function() {
       name: "Maya Angelou"
     },
     {
-      quote: "Make it simple. Make it memorable. Make it inviting to look at. Make it fun to read.",
-      name: "Leo Burnett"
+      quote: "Take the risk of thinking for yourself - much more happiness, truth, beauty, and wisdom will come to you that way.", 
+      name: "Christopher Hitchens"
+    },
+    {
+      quote: "It is not the strength of the body that counts, but the strength of the spirit.", 
+      name: "J.R.R. Tolkien"
+    },
+    {
+      quote: "Do not merely practice your art, but force your way into its secrets; it deserves that for only art and science can exalt man to divinity.", 
+      name: "Ludwig Van Beethoven"
+    },
+    {
+      quote: "It takes courage to grow up and become who you really are.", 
+      name: "E. R. Cummings"
     },
     {
       quote: "You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.",
       name: "Abraham Lincoln"
-    },
-    {
-      quote: "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", 
-      name: "Harriet Tubman"
     },
     {
       quote: "Sometimes, making the wrong choice is better than making no choice. You have the courage to go forward, that is rare. A person who stands at the fork, unable to pick, will never get anywhere.",
