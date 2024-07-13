@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Styling -->
-  <link rel="stylesheet" type="text/css" href="/design/items/mygame.css">
-  <link rel="stylesheet" type="text/css" href="/design/items/settings.css">
+  <link rel="stylesheet" type="text/css" href="/design/projects/tictactoe.css">
+  <link rel="stylesheet" type="text/css" href="/design/projects/settings.css">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
@@ -36,49 +37,63 @@
       <img class="logo" src="/images/logo.png" alt="logo" height="60" width="60">
       <b><span class="font-primary">P</span>ortfolio</b>
     </h1>
-  </section>
 
-  <section id="menu">
-    <h1 id="game" style="font-weight: bold; margin-left: 160px;">Tic Tac Toe<img src="/images/content/tictactoe.svg" alt="game" height="100"
-        width="100">
-    </h1>
+    <section id="menu" style="background-color: white;">
+      <h1 id="mygame" style="font-weight: bold; margin-left: 160px;">
+        <b><span class="font-primary">T</span>ic</b>
+        <b><span class="font-primary">T</span>ac</b>
+        <b><span class="font-primary">T</span>oe</b>
+        <img src="/images/content/tictactoe.svg" alt="game" height="100" width="100">
+      </h1>
 
-    <a href="/index.html" style="--clr:#33cccc">
-      <span class="font-primary"><b>Home</b></span>
-      <i></i>
-    </a>
+      <a href="/index.html" style="--clr:#33cccc">
+        <span class="font-primary" style="color: black"><b>Home</b></span>
+        <i></i>
+      </a>
 
-    <a href="/exhibit.html" style="--clr:#33cccc">
-      <span class="font-primary"><b>Exhibit</b></span>
-      <i></i>
-    </a>
+      <a href="/exhibit.html" style="--clr:#33cccc">
+        <span class="font-primary" style="color: black"><b>Exhibit</b></span>
+        <i></i>
+      </a>
+    </section>
   </section>
 
   <section id="game">
-    <main class="background">
-      <div class="display">
-        Player <span class="display-player playerX">X</span>'s turn
-      </div>
+    <section class="container">
+      <!-- Tic Tac Toe grid = 9 Button Options -->
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
 
-      <section class="board">
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-      </section>
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
 
-      <section class="display announcer hide"></section>
-      <br><br>
-      <button class="reset">
-        <h1 style="font-size: 30px; font-weight: bold;">Replay</h1>
-      </button>
-    </main>
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
+    </section>
+    <button id="reset">Reset</button>
   </section>
+
+  <div class="popup hide">
+    <p id="message">Sample Message</p>
+    <button id="new-game">New Game</button>
+  </div>
+
+  <section id="cites" style="margin: 0; padding: 0; margin-top: 750px; margin-left: 60px; background: #ffffff;">
+    <h1 style="background-color: #ebf9f8; font-size: 30px; font-weight: bold; text-align: center;">References</h1>
+    <br>
+    <h6 style="font-weight: bold;">Coding Artist (2022) Tic Tac Toe Game | HTML, CSS and JavaScript
+      <br>Retrieved from https://codingartistweb.com/2022/01/tic-tac-toe-game-html-css-and-javascript/
+    </h6>
+    <br>
+    <h6 style="font-weight: bold;">
+      Nagy, A. (2021) Create a Simple Tic-Tac-Toe game using HTML, CSS, JavaScript<br>
+      Retrieved from
+      https://dev.to/javascriptacademy/create-a-simple-tic-tac-toe-game-using-html-css-javascript-i4k</h6>
+  </section>
+
   <script type="text/javascript" src="/backend/tictactoe.js"></script>
 </body>
 

@@ -6,11 +6,11 @@
   margin-left: 60px;
 }
 
-h1, .portfolio {
+h1 {
   font-size: 30px;
 }
 
-h1, .portfolio span {
+span {
   font-weight: bold;
   color: #16bbce;
 }
@@ -26,10 +26,10 @@ h1, .portfolio span {
 }
 
 #menu a {
-  position: relative;
   color: black;
+  position: relative;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 30px;
   letter-spacing: 0.1em;
   font-weight: 400;
   padding: 10px 30px;
@@ -99,4 +99,15 @@ h1, .portfolio span {
   left: 100%;
   transform: translateX(-50%) rotate(-45deg);
   box-shadow: 38px -39px var(--clr);
+}
+
+#cites {
+  border: 4px solid #33CCCC;
+  width: 1200px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+
+#cites h6 {
+  margin-left: 60px;
 }

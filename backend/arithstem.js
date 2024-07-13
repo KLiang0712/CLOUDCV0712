@@ -1,4 +1,3 @@
-/* Calculator */
 "use strict";
 
 var input = document.getElementById('input'), // input/output button
