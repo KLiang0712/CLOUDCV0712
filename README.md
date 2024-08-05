@@ -24,6 +24,13 @@ Other large-scale subjects are likely to be planned for other portfolios in the 
   c. Random Quote Generator<br>
   d. Word Clouds Research Project<br>
 
+
+# Resources
+Provided are some generic resources which will be laid out in another page later<br>in addition to the references provided for each project:<br>
+Coding Artist Web Retrieved from: https://codingartistweb.com/<br> 
+<br>
+SVG Repository Retrieved from: https://www.svgrepo.com/
+
 # Sample Format
 ![TECHIS053024](https://github.com/KLiang0712/PORTFOLIO-TECHIS/assets/41204344/35df4c11-4c51-4de2-8b99-4ccff45b4c09)
 

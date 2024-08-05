@@ -51,9 +51,8 @@ section #about,
   width: 100%;
 }
 
-#about .profile,
-p {
-  margin-left: 160px;
+.profile, p {
+  margin-left: 60px;
 }
 
 #about .email {
@@ -63,14 +62,14 @@ p {
 #about .contact-info .email,
 .profile3 {
   text-decoration: none;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 #content .github3,
 .exhibit3 {
   border: 5px solid #33CCCC;
   font-weight: bold;
-  margin-left: 160px;
+  margin-left: 60px;
   height: 300px;
   width: 400px;
 }
@@ -101,7 +100,7 @@ p {
 .bootcamp {
   border: 4px solid #33CCCC;
   width: 400px;
-  margin-left: 160px;
+  margin-left: 60px;
 }
 
 #edux .card-title,
@@ -110,9 +109,9 @@ p {
 }
 
 #skills10 {
-  margin-left: 160px;
-  width: 80px;
-  height: 80px;
+  margin-left: 60px;
+  width: 75px;
+  height: 75px;
 }
 
 h2 {
