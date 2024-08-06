@@ -8,9 +8,9 @@ body {
  
 #calculator {
   width: 600px;
-  margin: 4% auto;
+  margin-left: 60px;
   font-family: Arial;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   font-size: 30px;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -140,10 +140,10 @@ div.equal:active {
 }
 
 #notes {
-  border: 5px solid #33CCCC;
+  border: 6px solid #33CCCC;
   font-weight: bold;
-  width: 1000px;
-  margin-left: 200px;
+  width: 600px;
+  margin-left: 60px;
 }
 
 #notes h1 {
