@@ -127,6 +127,7 @@ h2 span {
 }
 
 .skillcard {
-  border: 5px solid #33CCCC;
-  margin-left: 30px;
+  border: 6px solid #33CCCC;
+  margin-left: 60px;
+  width: 600px;
 }
