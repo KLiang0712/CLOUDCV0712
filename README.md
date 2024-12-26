@@ -14,4 +14,5 @@ Icons8 Icon Recolor Retrieved from https://icons8.com/iconizer/color<br>
 <br>
 SVG Repository Retrieved from https://www.svgrepo.com/
 
-<!-- # Sample Format --> 
+# Sample Format
+![TECHIS0712-053024](https://github.com/user-attachments/assets/b9d650e2-0e8c-47be-a76d-612ec56a9d3f)
